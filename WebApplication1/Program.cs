@@ -30,6 +30,7 @@ app.MapRazorPages();
 public class Book
 {
     //Komentarz1
+    //Komentarz2
 
     // Configure the HTTP request pipeline.
     public string Title { get; set; }
