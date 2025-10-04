@@ -29,7 +29,10 @@ app.Run();
 
 public class Book
 {
+
+    // Configure the HTTP request pipeline.
     public string Title { get; set; }
 
+    // Configure the HTTP request pipeline.
     public string Description { get; set; }
 }
