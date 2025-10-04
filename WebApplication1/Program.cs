@@ -15,6 +15,7 @@ if (!app.Environment.IsDevelopment())
     Console.WriteLine("Ponowny Test wysy³ania zmiany z VS");
 }
 
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -25,3 +26,8 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.Run();
+
+public class Book
+{
+    public string Title { get; set; }
+}
