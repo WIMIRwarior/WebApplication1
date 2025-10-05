@@ -31,5 +31,6 @@ public class Book
 {
     public string Title { get; set; }
 
+    //Komentarz po przywroceniu.
     public string Description { get; set; }
 }
