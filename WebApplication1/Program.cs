@@ -15,7 +15,6 @@ if (!app.Environment.IsDevelopment())
     Console.WriteLine("Ponowny Test wysy³ania zmiany z VS");
 }
 
-
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -25,16 +24,4 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
-//app.Run();
-
-public class Book
-{
-    //Komentarz1
-    //Komentarz2
-
-    // Configure the HTTP request pipeline.
-    public string Title { get; set; }
-
-    //Komentarz po przywroceniu.
-    public string Description { get; set; }
-}
+app.Run();
